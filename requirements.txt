@@ -1,4 +1,4 @@
-warcio[all]
+warcio
 streamlit
 pinecone
 dotenv
