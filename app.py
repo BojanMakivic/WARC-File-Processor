@@ -3,6 +3,7 @@ import gzip
 import os
 import requests
 import glob
+import warcio
 from warcio.archiveiterator import ArchiveIterator
 
 # Constants
