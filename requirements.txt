@@ -1,6 +1,5 @@
 warcio
 streamlit
-glob
 requests
 gzip
 os
