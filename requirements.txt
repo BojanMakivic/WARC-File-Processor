@@ -1,4 +1,4 @@
-warcio==1.7.5
+warcio[all]
 streamlit
 pinecone
 dotenv
