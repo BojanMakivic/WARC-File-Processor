@@ -2,3 +2,8 @@ openai
 streamlit
 pinecone
 dotenv
+warcio
+glob
+requests
+gzip
+os
