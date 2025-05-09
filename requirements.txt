@@ -2,4 +2,3 @@ warcio
 streamlit
 requests
 indexed-gzip
-os
