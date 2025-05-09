@@ -2,7 +2,7 @@ openai
 streamlit
 pinecone
 dotenv
-warcio
+warcio==1.7.5
 glob
 requests
 gzip
