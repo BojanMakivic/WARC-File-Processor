@@ -37,7 +37,11 @@ if uploaded_file:
 
 # --- Step 2: Download segments ---
 st.header("2. Download WARC segments")
-download_dir = st.text_input("Local directory to store downloaded WARC segments", value=os.getcwd())
+if "cloud" in os.getenv("HOME", "").lower():
+    st.info("Running on Streamlit Cloud: files will be stored in a temporary directory ('tmp_download').")
+    download_dir = "tmp_download"
+else:
+    download_dir = st.text_input("Local directory to store downloaded WARC segments", value=os.getcwd())
 col1, col2 = st.columns(2)
 with col1:
     start_dl = st.button("Download segments")
