@@ -1,7 +1,5 @@
 warcio
 streamlit
-pinecone
-dotenv
 glob
 requests
 gzip
